@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Popup Design </title>
+	<link rel="stylesheet"href="css file/msg.css">
+</head>
+<body>
+	<div class="container">
+		<div>
+			<button type="submit" class="btn" onclick="openPopup()">Submit</button>
+		</div>
+		
+		
+		<div class="popup" id="popup">
+			<h2>Booking <br> Successfully!</h2>
+			<img src="images/msg.png" alt="">
+			<h4>Your invoice number <br>sent your Email. check <br> your Email....!</h4>
+			<button type="button" onclick="closePopup()">OK</button>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+<script>
+let popup=document.getElementById("popup");
+
+function  openPopup(){
+ popup.classList.add("open-popup");
+}
+
+function  closePopup(){
+ popup.classList.remove("open-popup");
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css file/payment_info.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+	<div>
+		<div class="main-div">
+				<div class="title">PAYMENT INFORMATION</div>
+					
+							
+							<div class="container">
+
+    <form action="">
+	
+
+        <div class="number-container">
+		
+					<div class="inputBox">
+                    <span>Cards accepted :</span>
+					<br>
+                    <img src="images/card_img.png" alt="">
+			
+                </div>
+					<br>
+                        <label>Card Number</label>
+                        <input type="text" name="card-number" id="card-number" maxlength="19" placeholder="1234 5678 9101 1121"
+                        required
+                        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                    </div>
+                    
+                    <div class="infos-container">
+                        <div class="expiration-container">
+                            <label>Expiration Date (MM/YY)</label>
+                            <input type="text" name="valid-thru-text" id="valid-thru-text" maxlength="5" placeholder="02/40"
+                            required
+                            
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+						
+                        <div class="cvv-container">
+						<label>Cvv</label>
+						<br>
+                            <label> </label>
+                            <input type="text" name="cvv-text" id="cvv-text" maxlength="4" placeholder="1234"
+                            required
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+						
+						
+                    </div>
+					<div class="name-container">
+                        <label>Name on Card</label>
+                        <input type="text" name="name-text" id="name-text" maxlength="30" placeholder="NOAH JACOB"
+                        required
+                        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.key == ' '">
+                    </div>
+					<br>
+					<br>
+                    <input type="submit"  id="add" ><a href="Reservation.html">.</a>
+
+    </form>
+
+</div> 
+
+							
+					
+				</div>
+			<div class="downside">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
